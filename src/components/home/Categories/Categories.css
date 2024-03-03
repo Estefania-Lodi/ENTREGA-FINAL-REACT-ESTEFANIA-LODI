@@ -1,0 +1,41 @@
+.cardCenter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardStyle {
+    position: relative;
+    width: 350px;
+    padding: 16px;
+    text-align: center;
+    transition: all .3s;
+    margin-bottom: 30px; /* Ajusta el espacio entre las tarjetas */
+}
+
+.cardStyle:hover {
+    margin-top: -30px;
+}
+
+.cardStyle a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.cardStyle .card-img-top {
+    height: 600px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta la imagen para que encaje */
+    border: 3px solid rgb(34, 80, 53); /* Ajusta el grosor y el color del borde */
+}
+
+.btn-container {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Agrega boxShadow y border-radius aquí */
+    margin-bottom: 20px; /* Ajusta el margen inferior del navbar */
+}
